@@ -17,3 +17,5 @@ This project has had several different looks and will continue to evolve
 ## Inspiration
 * https://lynnandtonic.com/
 * https://www.hostinger.co.uk/tutorials/web-developer-portfolio#Top_25_Portfolio_Inspirations_for_Web_Developers
+* https://barbaralaw.me/
+* https://shawncharles.netlify.app/
