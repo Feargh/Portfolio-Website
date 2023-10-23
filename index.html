@@ -9,44 +9,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
 </head>
+<header class="color">
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#contact">Get in touch</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
-    <!-- <header></header> -->
-    <!-- <main>
-        <h2>Personal Statement</h2>
-        <h2>Experience</h2>
-        <h2>Side projects and self learning</h2>
-        <h3>Previous Career</h3>
-        <h2>Education and training</h2>
-    </main> -->
-    <section>
-        <h1>Welcome, I'm Fearghal, a software developer.</h1>
-        <p> Take a look around my portolio website and get in contact to see what we can make together</p>
+    <section class="texture">
+        <img src="Images/Headshot.png" alt="Profile photo">
+        <h1>Welcome, I'm Fearghal,<br> a software developer.</h1>
+        <p> Take a look around my portolio website and get in contact to see what we can make together.</p>
     </section>
-    <section>
+
+    <section class="color" id="projects">
         <h2>My latest projects:</h2>
-        <p>Game</p>
-        <p>Interest website</p>
-        <p>Application website</p>
     </section>
-    <section>
-        <h2>Previous Career</h2>
+
+    <section class="color" id="projects-list">
+        <article>
+            <img src="Images/Memory-game.png" alt="Picture of a memory card game">
+            <a href="https://feargh.github.io/Memory-Game/"><h3>Memory Game</h3></a>
+            <p>This game was created as part of a sucessful application to founders and coders fotware training program</p>
+        </article>
+        <article>
+            <img src="Images/Hobby-page.png" alt="London swimming website">
+            <h3>Hobby Page</h3>
+            <p>This project was created to illustrate the clients hobby of swimming in London</p>
+        </article>
+        <article>
+            <img src="Images/Application-website.png" alt="Application website picture">
+            <a href="https://feargh.github.io/"><h3>Application website</h3></a>
+            <p>This project was used to provide all the necessary information to apply to the founders and coders software course</p>
+        </article>
+    </section>
+
+    <section id="background" class="texture">
+        <h2>Background</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quam nam nesciunt aspernatur? Praesentium, dolor dignissimos. 
-            Excepturi, molestias explicabo. 
-            Possimus eius illo architecto qui laborum id necessitatibus aspernatur consequuntur dolores natus.
+            A trained optometrist, I have worked in permanent roles and freelance for many well known opticians. 
+            I enjoyed working as an optometrist and now I am tkaing on the challenge of my new career as a software developer. 
         </p>
+            <h3>Transferable skills that I will bring from my previous career are:</h3> 
+            <ul>
+                <li>Excellent communication and interpersonal skills honed through years of patient care.</li>
+                <li>Strong problem-solving abilities developed in diagnosing eye conditions and recommending suitable solutions.</li>
+                <li>Adaptability and ability to work with diverse individuals, crucial in work team environments.</li>
+                <li>Detail-oriented record keeping and documentation, applicable to tech project management.</li>
+            </ul>
     </section>
-    <section>
-        <h2>Education and training</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quam nam nesciunt aspernatur? Praesentium, dolor dignissimos. 
-            Excepturi, molestias explicabo. 
-            Possimus eius illo architecto qui laborum id necessitatibus aspernatur consequuntur dolores natus.
-        </p>
-    </section>
-    <section>
+
+    <section class="color" id="contact">
         <h2>Get in touch</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -55,8 +71,8 @@
             Possimus eius illo architecto qui laborum id necessitatibus aspernatur consequuntur dolores natus.
         </p>
     </section>
-    <footer>
-        <h3>Coded by Fearghal</h3>
+    <footer class="texture">
+        <h4>Coded by Fearghal</h4>
     </footer>
 </body>
 </html>
